@@ -1,0 +1,129 @@
+
+.container{
+ width: 100%;
+ height: 100vh;
+ background: black;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-top: -100px;
+}
+.row{
+ background: rgba(255, 255, 255, 0.534);
+ display: flex;
+ flex-direction:column;
+ padding: 20px;
+ width: 90%;
+ max-width: 600px;
+ border-radius: 10px;
+
+}
+.row .head h1{
+ color: green;
+ font-weight: 800;
+ margin-bottom: 20px;
+}
+.row input, .row textarea{
+ border: 0;
+ margin: 10px 0;
+ padding: 10px;
+ outline: none;
+ background: rgba(154, 247, 182, 0.444);
+ font-size: 16px;
+ border-radius: 20px;
+ width: 100%;
+}
+.row button{
+ padding-top: -8px;
+ background: green;
+ color: white;
+ font-size: 15px;
+ border: 0;
+ outline: none;
+ cursor: pointer;
+ width: 120px;
+ margin: 20px auto 0;
+ height: 40px;
+ border-radius: 20px ;
+ align-items: center;
+ justify-content: center;
+ margin-left: 40%;
+
+}
+.back{
+width: 75px;
+height: 50px;
+position: absolute;
+left: 6%;
+margin: 40px;
+
+
+}
+.back i{
+display: block;
+font-size: 40px;
+color: white;
+transition: all .50s ease;
+position: absolute;
+}
+.back i:hover{
+transform: translateY(-2px);
+}
+.title-text a{
+display: inline-block;
+color: rgb(0, 0, 0);
+background: #4d9559;
+border: 1px solid transparent;
+padding: 10px 30px;
+line-height: 1.4;
+font-size: 14px;
+font-weight: 500;
+border-radius: 30px;
+text-transform: uppercase;
+transition: all .55s ease;
+}
+.title-text a:hover{
+background: transparent;
+border: 1px solid white;
+transform: translateX(6px)
+}
+.title-text a.ctaa{
+background: transparent;
+border: 1px solid white;
+margin-left: 20px;
+}
+.title-text a.ctaa i{
+vertical-align: middle;
+margin-right: 5px;
+}
+@media(max-width: 580px){
+    .container{
+        width: 100%;
+        height: 80vh;
+        background: black;
+        display: flex;
+        align-items: center;
+
+        margin-top: 60px;
+        justify-content: center;
+       }
+       .row button{
+        background: green;
+        color: white;
+        font-size: 15px;
+        border: 0;
+        outline: none;
+        cursor: pointer;
+        width: 120px;
+        margin: 20px auto 0;
+        height: 40px;
+        border-radius: 20px ;
+        align-items: center;
+        justify-content: center;
+        margin-left: 35%;
+       
+       }
+
+
+
+}
